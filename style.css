@@ -174,9 +174,19 @@ body{
     justify-content: center;
     margin-left: 270px;
 }
-.text-box .c-b{
+.circle{
     position: absolute;
-    padding-left: 13px;
+    padding-left: 24px;
+    padding-top: 18px;
+}
+.plain{
+    position: absolute;
+    padding-left: 360px;
+    padding-top: 18px;
+}
+.smallbox{
+    position: absolute;
+    padding-left: 24px;
     padding-top: 18px;
 }
 
@@ -461,8 +471,20 @@ body{
     height: 11px;
     color: #000000;
 }
-progress {
-    color: #000000;
+.section5 .hr-bar{
+    margin-top: 5px;
+    display: flex;
+}
+.section5 .hr1{
+   height: 5px;
+   width: 90px;
+   background-color: #000;
+}
+.section5 .hr2{
+    height: 5px;
+    width: 1050px;
+    border: 0;
+    background-color: #e2e2e2;
 }
 .section5 .car{
     display: flex;
